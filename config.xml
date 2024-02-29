@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.corbinisnotyou.cleanunclean" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Clean and Unclean Meats</name>
+    <description>List of clean and unclean meats from the bible</description>
+    <author email="admin@corbinrose.com" href="https://corbinrose.com">
+        Corbin Rose
+    </author>
+    <content src="index.html" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <hook src="concatenate.js" type="before_prepare" />
+     <platform name="android">
+        <!-- Default -->
+        <preference 
+        name="AndroidWindowSplashScreenAnimatedIcon" 
+        value="res/piggy.png" />
+        <preference name="AndroidWindowSplashScreenBackground" value="#178CE0" />
+    </platform>
+</widget>

@@ -1,0 +1,15 @@
+main {
+  margin-top: 5em;
+}
+[data-column-id="1"]{
+  max-width: 65vw!important;
+  flex-basis: max-content!important;
+}
+[data-column-id="1"] div:first-child {
+ white-space: wrap!important;
+ text-overflow: initial!important;
+ padding: 0.5em 0!important;
+}
+[data-column-id="2"] {
+  justify-content: flex-end;
+}
